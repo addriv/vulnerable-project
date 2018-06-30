@@ -6,7 +6,7 @@ node {
 
     stage('Dependency Check') {
         dependencyCheckAnalyzer datadir: '', hintsFile: '', includeCsvReports: false, includeHtmlReports: false, includeJsonReports: false, includeVulnReports: false, isAutoupdateDisabled: false, outdir: '', scanpath: '', skipOnScmChange: false, skipOnUpstreamChange: false, suppressionFile: '', zipExtensions: ''
-        dependencyCheckPublisher canComputeNew: false, defaultEncoding: '', healthy: '', pattern: '', unHealthy: '', unstableTotalHigh: '5', unstableTotalLow: '10', unstableTotalNormal: '7'
+        dependencyCheckPublisher canComputeNew: false, defaultEncoding: '', failedTotalAll: '6', failedTotalHigh: '1', failedTotalLow: '3', failedTotalNormal: '2', healthy: '0', pattern: '', thresholdLimit: 'normal', unHealthy: '10', unstableTotalAll: '12', unstableTotalHigh: '2', unstableTotalLow: '6', unstableTotalNormal: '4'
     }
 
     stage('Deploying to Dev') {
