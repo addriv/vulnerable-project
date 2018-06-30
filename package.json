@@ -1,0 +1,26 @@
+{
+  "name": "test-dependency-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/addriv/test-dependency-check.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/addriv/test-dependency-check/issues"
+  },
+  "homepage": "https://github.com/addriv/test-dependency-check#readme",
+  "dependencies": {
+    "buttle": "^0.2.0",
+    "lodash": "^4.17.10",
+    "query-mysql": "0.0.2",
+    "react-marked-markdown": "^1.4.6"
+  }
+}
