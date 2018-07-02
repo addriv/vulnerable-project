@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/addriv/test-dependency-check#readme",
   "dependencies": {
-    "command-exists": "1.2.3",
-    "byte": "1.4.0",
-    "angular-http-server": "1.4.3",
-    "npmconf": "2.1.2"
+    "angular-http-server": "^1.4.5",
+    "byte": "1.4.1",
+    "command-exists": "^1.2.7",
+    "npmconf": "2.1.3"
   }
 }
