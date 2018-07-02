@@ -18,10 +18,9 @@
   },
   "homepage": "https://github.com/addriv/test-dependency-check#readme",
   "dependencies": {
-    "buttle": "^0.2.0",
-    "lodash": "^4.17.10",
-    "query-mysql": "0.0.2",
-    "react-marked-markdown": "^1.4.6",
-    "serve": "6.5.3"
+    "command-exists": "1.2.3",
+    "byte": "1.4.0",
+    "angular-http-server": "1.4.3",
+    "npmconf": "2.1.2"
   }
 }
