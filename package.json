@@ -22,6 +22,7 @@
     "byte": "1.4.1",
     "command-exists": "^1.2.7",
     "npmconf": "2.1.2",
-    "serve": "^9.4.0"
+    "url-parse": "1.4.2",
+    "serve": "6.5.3"
   }
 }
