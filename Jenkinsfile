@@ -9,6 +9,10 @@ node {
         dependencyCheckPublisher canComputeNew: false, defaultEncoding: '', failedTotalAll: '6', failedTotalHigh: '1', failedTotalLow: '3', failedTotalNormal: '2', healthy: '0', pattern: '', thresholdLimit: 'normal', unHealthy: '10', unstableTotalAll: '12', unstableTotalHigh: '2', unstableTotalLow: '6', unstableTotalNormal: '4'
     }
 
+    stage('Check Build Fail') {
+        echo currentBuild.result
+    }
+
     stage('Deploying to Dev') {
         echo 'Deployed to dev'
     }
